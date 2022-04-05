@@ -59,3 +59,8 @@ function anagrams(wordOne, wordTwo) {
 console.log(anagrams('mail', 'liam'));
 console.log(anagrams('mails', 'liam'));
 console.log(anagrams('tail', 'liam'));
+
+
+function uniqueString(arr) {
+    arr.map((string) => string.split(''))
+}
